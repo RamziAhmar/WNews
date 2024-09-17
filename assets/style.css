@@ -144,6 +144,17 @@ aside h1 {
         font-size: 15px;
     }
   }
+@media screen and (max-width: 495px) {
+    .popular-news .detail {
+        max-width: 400px;
+    }
+    .popular-news .detail h1{
+        font-size: 15px;
+    }
+    .popular-news .detail p,.popular-news .detail a{
+        font-size: 10px;
+  }
+}
 
 @media screen and (max-width: 1000px) {
     .top-post h2{
